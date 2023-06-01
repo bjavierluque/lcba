@@ -1,0 +1,244 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+
+body {
+  margin: 0;
+  font-family: Century Gothic;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #FFFFFF;
+  text-align: left;
+  background-color: #000000;
+}
+
+a {
+  color: #3699FF;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0073e9;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:not([href]):not([class]) {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: #031519;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div {
+    padding: 25px;
+    background-color: #031519;
+    margin: 20px;
+}
+
+
+/******************************************************/
+/******************************************************/
+
+/*NORMALIZACIÓN DE BOTONES*/
+button,
+[type="button"],
+[type="submit"] {
+  display: inline-block;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.42rem;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+
+  color: #ffffff;
+  background-color: #114559;
+  border-color: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  
+  text-transform: uppercase !important;
+  font-size: 1.35rem !important;
+  font-weight: 700;
+
+  box-sizing: content-box; width: 70%; border-radius: 60px 60px 60px 60px;
+}
+
+[type="reset"] {
+  display: inline-block;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.42rem;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+
+  color: #ffffff;
+  background-color: #c5351b;
+  border-color: #c5351b;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  
+  text-transform: uppercase !important;
+  font-size: 1.35rem !important;
+  
+  box-sizing: content-box; width: 90%; border-radius: 60px 60px 60px 60px;
+}
+
+/*NORMALIZACIÓN DE CAJAS DE TEXTO*/
+[type="text"],
+[type="date"],
+[type="time"],
+[type="password"],
+[type="file"] {
+  display: block;
+  width: 80%;
+  height: calc(1.5em + 1.3rem + 2px);
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #E4E6EF;
+  border-radius: 0.42rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+
+  text-align: left !important;
+  font-size: 16px !important;
+}
+
+textarea {
+  display: block;
+  width: 80%;
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #E4E6EF;
+  border-radius: 0.42rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+
+  text-align: left !important;
+  font-size: 16px !important;
+}
+
+/*NORMALIZACIÓN DE COMBOBOXES*/
+select,
+option,
+optgroup {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 1.3rem + 2px);
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #E4E6EF;
+  border-radius: 0.42rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+
+  text-align: center !important;
+  font-size: 16px !important;
+}
+
+
+/*NORMALIZACIÓN DE CASILLAS DE VERIFICACIÓN y BOTONES DE OPCIÓN
+input[type="checkbox"],
+input[type="radio"] {
+  display: block;
+  float: left;
+  width: 2em;
+  height: calc(0.6em + 0.6rem + 2px);
+}
+*/
+
+.form_check {
+  display: block;
+  float: left;
+  width: 2em;
+  height: calc(0.6em + 0.6rem + 2px);
+}
+
+/*CLASE PARA ETIQUETAS EN FORMULARIOS*/
+.form_label {
+  font-weight: 300;
+  color: #FFFFFF !important;
+  font-size: 16px !important;
+}
